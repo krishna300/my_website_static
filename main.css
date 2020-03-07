@@ -1,0 +1,138 @@
+
+
+/* reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height:4000px;
+}
+
+/* common */
+a{
+    text-decoration: none;
+    color:#333;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.container{
+
+    margin:auto;
+    max-width:1000px;
+    overflow: hidden;
+    position:relative;
+}
+
+#navbar{
+    height:72px;
+    background-color:#FFD700;
+}
+
+#navbar .container h1{
+    font-size:39px;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Inconsolata', monospace;
+    color:#fff;
+    float:left;
+    /* display: inline-block; */
+    padding-top: 10px;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+#navbar .container h1:hover{
+color:#333;
+cursor: pointer;
+
+font-size: 44px;
+text-align: center;
+}
+
+#navbar .container ul{
+    list-style: none;
+    float:right;
+}
+#navbar .container li{
+
+    float:left;
+}
+
+#navbar .container li a{
+
+    /* height:77px; */
+    /* width:100px; */
+    display:block;
+    padding:25px;
+    /* padding-bottom: 30px; */
+    text-align: center;
+    /* margin-top: 10px; */
+
+}
+
+#navbar .container li a:hover{
+
+    /* color:#fff; */
+    background-color:#FFD7;
+}
+
+/* header section? */
+
+.header {
+    height:550px;
+    background: url('https://source.unsplash.com/1600x900/?cars') top  center no-repeat;
+}
+.header .showcase-text{
+
+    
+    text-align:center;
+    color:#fff;
+   
+    padding-top:220px;
+}
+
+.header .showcase-text h1{
+    padding: 15px;
+    font-size: 39px;
+    font-family: 'Abel', cursive;
+    background-color: #FFD700;
+    color:#333;
+    display: inline-block;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+
+.header .showcase-text h1:hover{
+    opacity:1;
+    cursor: pointer;
+
+    /* font-size: 43px;
+    padding: 19px;
+    margin-bottom: 12px; */
+
+
+
+}
+.header .showcase-text p{
+    color: #000;
+    background-color:#ccc;
+    border-radius: 14px;
+    font-size: 19px;
+    padding:20px;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.7em;
+    opacity: 0.8;
+}
+.header .showcase-text p:hover{
+opacity:1;
+cursor: pointer;
+
+
+}
+
